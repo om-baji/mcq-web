@@ -7,6 +7,7 @@ collection = db["questions"]
 
 questions = [
     {
+        "number": 1,
         "question": "Which of the following is the correct syntax of including a user-defined header file in C++?",
         "options": [
             "#include 'userdefined'",
@@ -17,6 +18,7 @@ questions = [
         "correct_answer": "#include 'userdefined.h'"
     },
     {
+        "number": 2,
         "question": "Which of the following is used for comments in C++?",
         "options": [
             "/* comment */",
@@ -27,6 +29,7 @@ questions = [
         "correct_answer": "Both // and /* */"
     },
     {
+        "number": 3,
         "question": "Which of the following data types is not supported in C++?",
         "options": [
             "int",
@@ -37,6 +40,7 @@ questions = [
         "correct_answer": "boolean"
     },
     {
+        "number": 4,
         "question": "What is the correct output of the following C++ code?\n\n```cpp\nint main() {\n    int x = 5;\n    x++;\n    cout << x;\n    return 0;\n}\n```",
         "options": [
             "5",
@@ -47,6 +51,7 @@ questions = [
         "correct_answer": "6"
     },
     {
+        "number": 5,
         "question": "Which of the following operators cannot be overloaded in C++?",
         "options": [
             "+",
@@ -57,6 +62,7 @@ questions = [
         "correct_answer": "::"
     },
     {
+        "number": 6,
         "question": "Which of the following is the default return type of the main function in C++?",
         "options": [
             "int",
@@ -67,6 +73,7 @@ questions = [
         "correct_answer": "int"
     },
     {
+        "number": 7,
         "question": "Which of the following is not a valid access modifier in C++?",
         "options": [
             "public",
@@ -77,6 +84,7 @@ questions = [
         "correct_answer": "friend"
     },
     {
+        "number": 8,
         "question": "Which of the following is the correct way to declare an array in C++?",
         "options": [
             "int arr[10];",
@@ -87,6 +95,7 @@ questions = [
         "correct_answer": "int arr[10];"
     },
     {
+        "number": 9,
         "question": "Which of the following concepts is used to implement late binding in C++?",
         "options": [
             "Inheritance",
@@ -97,6 +106,7 @@ questions = [
         "correct_answer": "Virtual functions"
     },
     {
+        "number": 10,
         "question": "What is the size of the int data type in C++?",
         "options": [
             "2 bytes",
@@ -107,6 +117,7 @@ questions = [
         "correct_answer": "It depends on the compiler"
     },
     {
+        "number": 11,
         "question": "Which of the following is true about C++?",
         "options": [
             "C++ is a procedural programming language",
@@ -117,6 +128,7 @@ questions = [
         "correct_answer": "C++ supports both procedural and object-oriented programming"
     },
     {
+        "number": 12,
         "question": "Which of the following statements is true for a constructor in C++?",
         "options": [
             "It must have a return type",
@@ -127,6 +139,7 @@ questions = [
         "correct_answer": "It is called automatically when an object is created"
     },
     {
+        "number": 13,
         "question": "Which of the following is the correct syntax to declare a pointer in C++?",
         "options": [
             "int* ptr;",
@@ -137,6 +150,7 @@ questions = [
         "correct_answer": "Both int* ptr; and int *ptr; are correct"
     },
     {
+        "number": 14,
         "question": "Which of the following features does not belong to object-oriented programming in C++?",
         "options": [
             "Encapsulation",
@@ -147,6 +161,7 @@ questions = [
         "correct_answer": "Pointers"
     },
     {
+        "number": 15,
         "question": "Which of the following is true for the 'new' keyword in C++?",
         "options": [
             "It is used to deallocate memory",
@@ -157,6 +172,7 @@ questions = [
         "correct_answer": "It is used to allocate memory dynamically"
     },
     {
+        "number": 16,
         "question": "Which of the following loops in C++ is known as an exit-controlled loop?",
         "options": [
             "for",
@@ -167,6 +183,7 @@ questions = [
         "correct_answer": "do-while"
     },
     {
+        "number": 17,
         "question": "Which of the following correctly describes a destructor in C++?",
         "options": [
             "It is used to initialize objects",
@@ -177,6 +194,7 @@ questions = [
         "correct_answer": "It has the same name as the class and has no return type"
     },
     {
+        "number": 18,
         "question": "Which of the following is not a type of inheritance in C++?",
         "options": [
             "Single inheritance",
@@ -187,6 +205,7 @@ questions = [
         "correct_answer": "Friend inheritance"
     },
     {
+        "number": 19,
         "question": "Which of the following operators in C++ is used to access a member function of a class through an object?",
         "options": [
             "->",
@@ -197,6 +216,7 @@ questions = [
         "correct_answer": "."
     },
     {
+        "number": 20,
         "question": "Which of the following is the correct way to declare a constant variable in C++?",
         "options": [
             "const int x = 5;",
@@ -207,6 +227,7 @@ questions = [
         "correct_answer": "Both const int x = 5; and int const x = 5;"
     },
     {
+        "number": 21,
         "question": "What is the default value of a static variable in C++?",
         "options": [
             "0",
@@ -217,6 +238,7 @@ questions = [
         "correct_answer": "0"
     },
     {
+        "number": 22,
         "question": "Which of the following is true about function overloading in C++?",
         "options": [
             "Functions with the same name must have the same number of parameters",
@@ -227,6 +249,7 @@ questions = [
         "correct_answer": "Functions with the same name must have different numbers or types of parameters"
     },
     {
+        "number": 23,
         "question": "Which of the following is the correct syntax to declare a reference variable in C++?",
         "options": [
             "int &ref;",
@@ -237,6 +260,7 @@ questions = [
         "correct_answer": "int &ref;"
     },
     {
+        "number": 24,
         "question": "Which of the following keywords is used to prevent a class from being inherited in C++?",
         "options": [
             "static",
@@ -247,6 +271,7 @@ questions = [
         "correct_answer": "final"
     },
     {
+        "number": 25,
         "question": "Which of the following is true for the 'this' pointer in C++?",
         "options": [
             "'this' is a pointer to the current object",
