@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from "mongoose";
 
 mongoose
     .connect("mongodb://127.0.0.1:27017/")
@@ -15,8 +15,4 @@ const questionSchema = new mongoose.Schema({
     correct_answer : String
 })
 
-const Question = mongoose.model("Question" , questionSchema);
-
-module.exports = {
-    Question
-}
+export const Question = mongoose.model("Question" , questionSchema);
