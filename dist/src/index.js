@@ -15,11 +15,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const db_1 = require("../db/db");
 const app = (0, express_1.default)();
+app.use(express_1.default.json());
 app.get("/ques", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const ques = yield db_1.Question.findOne({
         number: Math.floor(Math.random() * 25) + 1
     });
-    console.log(Math.floor(Math.random() * 25) + 1);
-    console.log(ques);
+    res.json({
+        question: ques === null || ques === void 0 ? void 0 : ques.question,
+        options: ques === null || ques === void 0 ? void 0 : ques.options
+    });
 }));
 app.listen(4000);
