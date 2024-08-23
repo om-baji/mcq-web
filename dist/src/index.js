@@ -17,8 +17,9 @@ const db_1 = require("../db/db");
 const app = (0, express_1.default)();
 app.get("/ques", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const ques = yield db_1.Question.findOne({
-        id: Math.floor(Math.random() * 25) + 1
+        number: Math.floor(Math.random() * 25) + 1
     });
+    console.log(Math.floor(Math.random() * 25) + 1);
     console.log(ques);
 }));
 app.listen(4000);

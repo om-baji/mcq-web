@@ -14,6 +14,7 @@ mongoose_1.default
     console.log("Internal server error!");
 });
 const questionSchema = new mongoose_1.default.Schema({
+    number: Number,
     question: String,
     options: [String],
     correct_answer: String
