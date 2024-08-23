@@ -10,6 +10,7 @@ mongoose
         })
 
 const questionSchema = new mongoose.Schema({
+    number : Number,
     question : String,
     options : [String],
     correct_answer : String
